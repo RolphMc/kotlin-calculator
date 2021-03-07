@@ -21,10 +21,12 @@ class MainActivity : AppCompatActivity() {
 
         val n1: TextView = this.findViewById(R.id.editTextNumber)
         val n2: TextView = this.findViewById(R.id.editTextNumber1)
+
+        /* PROBLEMA: Conversão textview para float
         val n1S: String = n1.text.toString()
         val n2S: String = n2.text.toString()
-        //val n1f: Float = n1S.toDouble()
-        //val n2f: Float = n2S.toFloat().
+        val n1f: Float = n1S.toDouble()
+        val n2f: Float = n2S.toFloat()*/
 
         val buttomSum: Button = findViewById(R.id.buttonSum)
         /*val buttomSubtraction: Button = this.findViewById(R.id.buttonSubtraction)
@@ -41,7 +43,7 @@ class MainActivity : AppCompatActivity() {
         var divisao:Float = calculate(n1, n2){a,b -> a/b}*/
 
         buttomSum.setOnClickListener{
-            aux = calculate(n1f, n2f){a,b -> a+b}
+            aux = calculate(n1, n2){a,b -> a+b} //n1 e n2 precisam ser convertidos para float
             result.text = aux.toString()
         }
         /*
