@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         val n1S: String = n1.text.toString()
         val n2S: String = n2.text.toString()
         //val n1f: Float = n1S.toDouble()
-        //val n2f: Float = n2S.toFloat()
+        //val n2f: Float = n2S.toFloat().
 
         val buttomSum: Button = findViewById(R.id.buttonSum)
         /*val buttomSubtraction: Button = this.findViewById(R.id.buttonSubtraction)
