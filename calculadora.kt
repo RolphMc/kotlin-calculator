@@ -1,4 +1,5 @@
 fun main() {
+
     fun calculadora(n1:Float?, n2:Float?, tipo:Int){             
         if(n1 != null && n2 != null) {
             println("Tudo certo, continuando a operação")            
