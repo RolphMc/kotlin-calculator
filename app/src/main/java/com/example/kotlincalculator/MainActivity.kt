@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
     private val calculator = Calculator()
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
         setupButtons()
